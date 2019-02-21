@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import TableContainer from './TableContainer';
 
 class App extends Component {
   render() {
@@ -20,6 +21,10 @@ class App extends Component {
             Learn React
           </a>
         </header>
+
+        <div>
+          <TableContainer />
+        </div>
       </div>
     );
   }
